@@ -1,319 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Rohit Ravi Rangarej — Software Engineer and Backend Engineer specializing in Go, microservices, REST APIs, PostgreSQL, Keycloak, and cloud-based backend systems." />
+  <meta name="keywords" content="Rohit Rangarej, Software Engineer, Backend Engineer, Golang, Go, Microservices, REST APIs, PostgreSQL, Keycloak, NestJS, AWS ECS" />
+  <meta name="author" content="Rohit Ravi Rangarej" />
+  <meta name="theme-color" content="#0b1020" />
 
-  <title>Rohit R Rangarej | Developer</title>
-
-  <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-  <meta name="keywords" content="Rohz, Rohit Sure, javascript" />
-
-  <!-- Improve your SEO by adding a small descrption of you -->
-  <meta name="description" content="A Software Developer" />
-
-  <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+  <title>Rohit Ravi Rangarej | Software Engineer</title>
   <link rel="icon" type="image/png" href="./assets/rohitLogo.png" />
-
-  <!-- Add your primary-theme color for the value of content -->
-  <meta name="theme-color" content="#36d1dc" />
-
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <!-- Fill content with the URL of this portfolio you'll host -->
-  <meta property="og:url" content=" https://github.com/RohitRangarej" />
-  <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
-  <meta property="og:title" content="Rohit R Rangarej | Developer" />
-  <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
-  <meta property="og:description" content="Portfolio website of Rohit R Rangarej" />
-  <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail
-      so that a thumbnail image of your portfolio is shown while shared on other platform -->
-  <meta property="og:image" content="https://RohitRangarej.github.io/Portfolio/assets/devfolio.png" />
-
-  <!-- link tags -->
-  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <script src="./javascript/scrollreveal.min.js"></script>
-  <script defer type="text/javascript" src="./javascript/scrollveal.js"></script>
-
-
+  <link rel="stylesheet" href="./css/main.css" />
 </head>
 
 <body>
-  <!-- Hero Section -->
-  <div id="hero">
-    <section class="container">
-      <h1 class="hero-title">
-        Hi, my name is <span class="text-color-main name">Rohit R Rangarej</span>
-        <br />
-      </h1>
-      <p class="hero-cta">
-        <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
-      </p>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#hero" class="brand" aria-label="Rohit Rangarej home">RR</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-glow hero-glow-one"></div>
+      <div class="hero-glow hero-glow-two"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">SOFTWARE ENGINEER · BACKEND ENGINEERING</p>
+        <h1>Hi, I'm <span>Rohit Rangarej.</span></h1>
+        <p class="hero-subtitle">
+          I build backend services, REST APIs, and microservices primarily with <strong>Go</strong>,
+          with experience across NestJS, PostgreSQL, authentication, and cloud infrastructure.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#experience">View Experience</a>
+          <a class="button button-secondary" href="./assets/Rohit_Rangarej_Resume_2026.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
+        </div>
+        <div class="hero-links" aria-label="Social links">
+          <a href="https://www.linkedin.com/in/rohit-rangarej" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i> LinkedIn</a>
+          <a href="https://github.com/RohitRangarej" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i> GitHub</a>
+          <a href="mailto:rohitrangarej1@gmail.com"><i class="fa fa-envelope"></i> Email</a>
+        </div>
+      </div>
+      <a href="#about" class="scroll-cue" aria-label="Scroll to About section"><span></span></a>
     </section>
-    <a href="#about" class="scroll-down-link" aria-label="scroll-down">
-      <div class="scroll-down"></div>
-    </a>
-  </div>
-  <!-- /END Hero Section -->
 
-  <!-- About Section -->
-  <section id="about">
-    <div class="container">
-      <h2 class="section-title">About Me</h2>
-      <div class="row about-wrapper">
-        <div class="about-wrapper__info">
-          <p class="about-wrapper__info-text">
-            A Computer Science Student from India. I aim to deepen my understanding in various areas of technology and product development </p>
-          <p class="about-wrapper__info-text">
-            I'm passionate about technology and enjoy nothing more than learning the new trends and implementing it to make life much easier and nicer.
-          </p>
-          <span class="about-wrapper__cta">
-            <a href="https://drive.google.com/file/d/1pIQj9kq-eRYZl8d7UcUOVnaRnmL4XNti/view?usp=drivesdk" class="cta-btn cta-btn--resume">View Resume</a>
-          </span>
-        </div>
+    <section id="about" class="section section-light">
+      <div class="container narrow">
+        <p class="section-kicker">ABOUT ME</p>
+        <h2 class="section-title">Backend-focused engineer building production systems.</h2>
+        <p class="section-lead">
+          I'm a Software Engineer at <strong>Paywize Technologies Pvt. Ltd.</strong>, where I work primarily
+          on backend services and microservices using Go. I was promoted to Software Engineer effective
+          March 2026 after starting as an Associate Backend Developer in February 2025.
+        </p>
+        <p class="section-lead">
+          My work spans API development, merchant and identity workflows, authentication and authorization,
+          third-party integrations, PostgreSQL, service-to-service communication, and production support.
+          Over the past few months, I've also been contributing to NestJS services within the microservice ecosystem.
+        </p>
       </div>
-    </div>
-  </section>
-  <!-- /END About Section -->
-  <!--Projects Section-->
-  <section id="projects">
-    <div class="container">
-      <div class="project-wrapper">
+    </section>
 
-        <div class="user">
-
-          <div class="tech">
-            <h2 class="section-title dark-blue-text">Languages</h2>
-            <div class="about-wrapper__image">
-              <img class="img-fluid" src="https://img.icons8.com/color/96/000000/java-coffee-cup-logo--v1.png" />
-              <img class="img-fluid" src="https://img.icons8.com/color/96/000000/javascript--v1.png" />
-              <img class="img-fluid" src="https://img.icons8.com/color/96/000000/python--v1.png" />
-              <img class="img-fluid" src="https://img.icons8.com/ios-filled/96/000000/c-plus-plus-logo.png" />
-              <p>My favorite languages for systems programming, software engineering, and data analysis.</p>
-            </div>
-
-          </div>
-
-
-          <div class="tech">
-            <h2 class="section-title dark-blue-text">Front-End</h2>
-
-            <div class="about-wrapper__image">
-              <img class="img-fluid" src="https://img.icons8.com/office/96/000000/react.png" />
-              <img class="img-fluid" src="https://img.icons8.com/color/96/000000/bootstrap.png" />
-              <img class="img-fluid" src="https://img.icons8.com/color/96/000000/html-5--v1.png" />
-              <img class="img-fluid" src="https://img.icons8.com/color/96/000000/css3.png" />
-              <p>My preferred technologies for front-end web development and component design.</p>
-            </div>
-          </div>
-
-          <div class="tech">
-            <h2 class="section-title dark-blue-text">Back-End</h2>
-
-            <div class="about-wrapper__image">
-              <img class="img-fluid" src="https://img.icons8.com/color/96/000000/java-coffee-cup-logo--v1.png" />
-              <img class="img-fluid" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/000000/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png" />
-              <img class="img-fluid" src="https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000" />
-              <img class="img-fluid" src="https://img.icons8.com/?size=100&id=90519&format=png&color=000000" />
-              <p>My preferred technologies for back-end web programming and database architecture.</p>
-            </div>
-          </div>
-
-          <div class="tech">
-            <h2 class="section-title dark-blue-text">Tools</h2>
-
-            <div class="about-wrapper__image">
-              <img class="img-fluid" src="https://img.icons8.com/color/96/000000/git.png" />
-              <img class="img-fluid" src="https://img.icons8.com/fluency/96/000000/visual-studio-code-2019.png" />
-              <img class="img-fluid" src="https://img.icons8.com/ios-filled/96/000000/github.png" />
-              <p>My favorite tools for version control, code editing, and container orchestration.</p>
-            </div>
-          </div>
+    <section id="experience" class="section section-dark">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">EXPERIENCE</p>
+          <h2 class="section-title">Professional journey</h2>
         </div>
 
-        <h2 class="section-title dark-blue-text">Projects</h2>
-
-        <!-- Each .row is a project -->
-        <article class="row">
-          <div class="project-wrapper__text">
-            <h3 class="project-wrapper__text-title">MOVIE APPLICATION </h3>
-            <p class="project-wrapper__text-info">
-              Spring boot framework project using Java, Thymeleaf with dependencies like JPA, Spring, MySql, mail etc
-
-            </p>
-            <div class="project-wrapper__text-btns">
-              <a href="https://github.com/RohitRangarej/Movie-Application" target="_blank" class="cta-btn text-color-main">Source Code</a>
-              <a href="https://movieflix-xj6i.onrender.com/" target="_blank" class="cta-btn text-color-main">Live Website</a>
+        <article class="experience-card">
+          <div class="experience-header">
+            <div>
+              <p class="company">Paywize Technologies Pvt. Ltd.</p>
+              <h3>Software Engineer</h3>
             </div>
+            <span class="date">Mar 2026 — Present</span>
           </div>
-
-          <div class="project-wrapper__image">
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <div class="thumbnail rounded">
-                <img src="./assets/movie_app.png" class="img-fluid" alt="Project Image" />
-              </div>
-            </a>
+          <p class="experience-intro">Promoted from Associate Backend Developer after joining in February 2025.</p>
+          <ul>
+            <li>Design and maintain backend microservices primarily using Go for production systems.</li>
+            <li>Build REST APIs supporting merchant onboarding, authentication, payout, collection, connected banking, reseller integrations, and identity management.</li>
+            <li>Implement authentication and authorization using Keycloak, OAuth 2.0, OpenID Connect, JWT, and RBAC.</li>
+            <li>Develop multi-merchant account management, merchant onboarding, reseller workflows, account switching, and activity logging capabilities.</li>
+            <li>Integrate external APIs and build secure service-to-service communication across backend services.</li>
+            <li>Contribute to NestJS microservices through API development, business logic, and database enhancements.</li>
+          </ul>
+          <div class="tag-row">
+            <span>Go</span><span>Microservices</span><span>Keycloak</span><span>PostgreSQL</span><span>NestJS</span><span>AWS ECS</span>
           </div>
         </article>
-        <!-- /END Project -->
-        <!-- Each .row is a project -->
-        <article class="row">
-          <div class="project-wrapper__text">
-            <h3 class="project-wrapper__text-title">User Access Management System </h3>
-            <p class="project-wrapper__text-info">
-              Spring boot framework full-stack project using Java with technologies like JavaServlets, JavaServer Pages (JSP), PostgreSQL with dependencies like JPA, Spring, Json, Lombok etc.
 
-            </p>
-            <div class="project-wrapper__text-btns">
-              <a href="https://github.com/RohitRangarej/User-Access-Management-System" target="_blank" class="cta-btn text-color-main">Source Code</a>
+        <article class="experience-card experience-card-secondary">
+          <div class="experience-header">
+            <div>
+              <p class="company">Paywize Technologies Pvt. Ltd.</p>
+              <h3>Associate Backend Developer</h3>
             </div>
+            <span class="date">Feb 2025 — Feb 2026</span>
           </div>
-
-          <div class="project-wrapper__image">
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <div class="thumbnail rounded">
-                <img src="./assets/Access Management System.png" class="img-fluid" alt="Project Image" />
-              </div>
-            </a>
-          </div>
+          <p class="experience-intro">Started my professional backend engineering journey, working primarily with Go.</p>
+          <ul>
+            <li>Developed and maintained backend APIs and microservices supporting merchant and payment platform workflows.</li>
+            <li>Worked on authentication, authorization, merchant onboarding, integrations, and service-to-service communication.</li>
+            <li>Worked with PostgreSQL, database migrations, data-access tooling, debugging, testing, and production issue resolution.</li>
+          </ul>
         </article>
-        <!-- /END Project -->
-        <!-- Each .row is a project -->
-        <article class="row">
-          <div class="project-wrapper__text">
-            <h3 class="project-wrapper__text-title">VISIONLESS EMAIL FOR VISUALLY IMPAIRED USERS </h3>
-            <p class="project-wrapper__text-info">
-              An exe application built using python, which lets the users to send and read the emails by using their voice commands.
-
-            </p>
-            <div class="project-wrapper__text-btns">
-              <a href="https://github.com/RohitRangarej/Visionless-Email" target="_blank" class="cta-btn text-color-main">Source Code</a>
-            </div>
-          </div>
-
-          <div class="project-wrapper__image">
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <div class="thumbnail rounded">
-                <img src="./assets/project1.png" class="img-fluid" alt="Project Image" />
-              </div>
-            </a>
-          </div>
-        </article>
-        <!-- /END Project -->
-                <!-- Each .row is a project -->
-        <article class="row">
-          <div class="project-wrapper__text">
-            <h3 class="project-wrapper__text-title">Todo List</h3>
-            <p class="project-wrapper__text-info">
-              An application to create a todo list and user can create multiple separate custom list by specifying the list name at the end of the website url.
-
-            </p>
-            <div class="project-wrapper__text-btns">
-              <a href="https://github.com/RohitRangarej/To-do_list" target="_blank" class="cta-btn text-color-main">Source Code</a>
-            </div>
-          </div>
-
-          <div class="project-wrapper__image">
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <div class="thumbnail rounded">
-                <img src="./assets/Todolist.png" class="img-fluid" alt="Project Image" />
-              </div>
-            </a>
-          </div>
-        </article>
-        <!-- /END Project -->
-
-        <!-- Each .row is a project -->
-        <article class="row">
-          <div class="project-wrapper__text">
-            <h3 class="project-wrapper__text-title">Mini Project on Bank Management System </h3>
-            <p class="project-wrapper__text-info">
-              A simple web application created using HTML, CSS and JavaScript as design and PHP on Server side and MySQL as database.
-            </p>
-            <div class="project-wrapper__text-btns">
-              <a href="https://github.com/RohitRangarej/Bank-Management" target="_blank" class="cta-btn text-color-main">Source Code</a>
-            </div>
-          </div>
-
-          <div class="project-wrapper__image">
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <div class="thumbnail rounded">
-                <img src="./assets/project2.png" class="img-fluid" alt="Project Image" />
-              </div>
-            </a>
-          </div>
-        </article>
-        <!-- /END Project -->
-
-        <!-- Each .row is a project -->
-        <article class="row">
-          <div class="project-wrapper__text">
-            <h3 class="project-wrapper__text-title">Web designing for we save animals </h3>
-            <p class="project-wrapper__text-info">
-              The project involved using HTML, CSS, and JavaScript for the front-end development to create the user interface and implement interactive features. On the back-end, EJS and SQL were used to generate dynamic content and manage the database, respectively.
-            </p>
-            <div class="project-wrapper__text-btns">
-              <a href="https://github.com/RohitRangarej/wsa-project" target="_blank" class="cta-btn text-color-main">Source Code</a>
-            </div>
-          </div>
-
-          <div class="project-wrapper__image">
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <div class="thumbnail rounded">
-                <img src="./assets/project3.png" class="img-fluid" alt="Project Image" />
-              </div>
-            </a>
-          </div>
-        </article>
-        <!-- /END Project -->
       </div>
-    </div>
-  </section>
-  <!-- End Projects Section -->
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="container">
-      <h2 class="section-title">Contact</h2>
-      <div class="contact-wrapper">
-        <p class="contact-wrapper__text">Get in Touch</p>
-        <a href="mailto:rohitrangarej1@gmail.com" class="cta-btn cta-btn--resume">Connect</a>
+    <section id="skills" class="section section-light">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">TECHNICAL SKILLS</p>
+          <h2 class="section-title">Tools I work with</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-icon"><i class="fa fa-code"></i></div>
+            <h3>Languages</h3>
+            <div class="tag-row"><span>Go</span><span>TypeScript</span><span>Java</span><span>SQL</span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon"><i class="fa fa-server"></i></div>
+            <h3>Backend</h3>
+            <div class="tag-row"><span>Go</span><span>NestJS</span><span>REST APIs</span><span>Microservices</span><span>Spring Boot</span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon"><i class="fa fa-shield"></i></div>
+            <h3>Security</h3>
+            <div class="tag-row"><span>Keycloak</span><span>OAuth 2.0</span><span>OIDC</span><span>JWT</span><span>RBAC</span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon"><i class="fa fa-database"></i></div>
+            <h3>Data</h3>
+            <div class="tag-row"><span>PostgreSQL</span><span>SQLC</span><span>MySQL</span><span>MongoDB</span><span>Flyway</span><span>Goose</span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon"><i class="fa fa-cloud"></i></div>
+            <h3>Cloud & DevOps</h3>
+            <div class="tag-row"><span>Docker</span><span>AWS ECS</span><span>Kong</span><span>Git</span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon"><i class="fa fa-wrench"></i></div>
+            <h3>Tools</h3>
+            <div class="tag-row"><span>Swagger/OpenAPI</span><span>Postman</span><span>GitHub</span></div>
+          </article>
+        </div>
       </div>
-    </div>
-  </section>
-  <!-- END Contact Section -->
+    </section>
 
-  <!-- Footer Section -->
+    <section id="projects" class="section section-dark">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">SELECTED PROJECTS</p>
+          <h2 class="section-title">Earlier work</h2>
+          <p class="section-description">A couple of projects from my earlier development journey. My current professional work is highlighted above.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-image"><img src="./assets/movie_app.png" alt="Movie Application project" /></div>
+            <div class="project-body">
+              <p class="project-type">FULL-STACK JAVA</p>
+              <h3>Movie Application</h3>
+              <p>Full-stack movie application built with Spring Boot, Java, Thymeleaf, JPA, MySQL, and email functionality.</p>
+              <div class="project-links">
+                <a href="https://github.com/RohitRangarej/Movie-Application" target="_blank" rel="noopener noreferrer">Source Code <i class="fa fa-external-link"></i></a>
+                <a href="https://movieflix-xj6i.onrender.com/" target="_blank" rel="noopener noreferrer">Live Demo <i class="fa fa-external-link"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image"><img src="./assets/Access Management System.png" alt="User Access Management System project" /></div>
+            <div class="project-body">
+              <p class="project-type">BACKEND / WEB</p>
+              <h3>User Access Management System</h3>
+              <p>Spring Boot application using Java, Servlets, JSP, PostgreSQL, JPA, Spring, JSON, and Lombok.</p>
+              <div class="project-links">
+                <a href="https://github.com/RohitRangarej/User-Access-Management-System" target="_blank" rel="noopener noreferrer">Source Code <i class="fa fa-external-link"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="future-project">
+          <span class="future-label">NEXT</span>
+          <div>
+            <h3>Building deeper backend systems</h3>
+            <p>I'm currently interested in distributed systems, high-performance backend engineering, and multiplayer server infrastructure.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container narrow contact-content">
+        <p class="section-kicker">GET IN TOUCH</p>
+        <h2 class="section-title">Let's connect.</h2>
+        <p>Interested in backend engineering, Go, microservices, or building reliable systems? Feel free to reach out.</p>
+        <div class="hero-actions contact-actions">
+          <a class="button button-primary" href="mailto:rohitrangarej1@gmail.com">Email Me</a>
+          <a class="button button-secondary" href="https://www.linkedin.com/in/rohit-rangarej" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
   <footer class="footer">
-    <div class="container">
-      <a href="#hero" class="back-to-top" aria-label="go back to top">
-        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-      </a>
-      <div class="social-links">
-        <a href="https://www.linkedin.com/in/rohit-rangarej-413335285" target="_blank" rel="noopener noreferrer" aria-label="linkedin">
-          <i class="fa fa-linkedin"></i>
-        </a>
-        <a href="https://github.com/RohitRangarej" target="_blank" rel="noopener noreferrer" aria-label="github">
-          <i class="fa fa-github"></i>
-        </a>
+    <div class="container footer-inner">
+      <div>
+        <strong>Rohit Ravi Rangarej</strong>
+        <span>Software Engineer · Backend Engineering</span>
       </div>
-      <hr />
-      <p class="footer__text">
-        &copy; <span id="year"></span>
-        <a href="https://github.com/RohitRangarej" target="_blank" rel="noopener noreferrer">Rohit R Rangarej</a>.
-      </p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/rohit-rangarej" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/RohitRangarej" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa fa-github"></i></a>
+        <a href="mailto:rohitrangarej1@gmail.com" aria-label="Email"><i class="fa fa-envelope"></i></a>
+      </div>
+      <p class="copyright">© <span id="year"></span> Rohit Ravi Rangarej</p>
     </div>
   </footer>
-  <!-- END Footer Section -->
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
-  <script src="./javascript/vanilla-tilt.min.js"></script>
-  <script type="text/javascript" src="./javascript/valtilt.js"></script>
 </body>
-
 </html>
